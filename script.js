@@ -1,3 +1,4 @@
+
 // Helper to set box color
 function setBoxColor(color) {
   document.getElementById('box').style.backgroundColor = color;
@@ -19,3 +20,4 @@ document.getElementById('random-btn').addEventListener('click', function() {
   var color = randomHex();
   setBoxColor(color);
 });
+
